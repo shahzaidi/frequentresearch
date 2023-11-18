@@ -1,0 +1,17 @@
+import React from "react";
+
+const Spinner = () => {
+  return (
+    <>
+      <div
+        className="container spinner-border text-dark"
+        style={{ textAlign: "center" }}
+        role="status"
+      >
+        <span className="visually-hidden">Loading...</span>
+      </div>
+    </>
+  );
+};
+
+export default Spinner;
